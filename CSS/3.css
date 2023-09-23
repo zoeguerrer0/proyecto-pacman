@@ -1,0 +1,41 @@
+.grid {
+    width: 420px;
+    height: 420px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background: #6247aa;
+}
+
+.power-pellet {
+    background: salmon;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.pacman {
+    background: #f77f00;
+    border-radius: 7.5px;
+    border: none;
+}
+
+
+/* // 0 - pac-dots
+    // 1 - wall
+    // 2 - ghost-lair
+    // 3 - power-pellet
+    // 4 - empty *¡Muchas gracias por preferirnos! Esperamos poder servirte nuevamente.
